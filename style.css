@@ -1,11 +1,11 @@
 body {
-	font: 'Raleway', sans-serif;
+    font: 'Raleway', 'sans-serif';
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
     top: 15%;
-	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+	background: linear-gradient(to right, rgb(0, 255, 0) , rgb(255, 0, 0)); /* Standard syntax */
 }
 
 h1 {
@@ -24,4 +24,25 @@ h3 {
     text-transform: none;
     letter-spacing: 0.01em;
 
+    display: inline;
+
 }
+
+button {
+    background-color: black; /* Green background */
+    border: none; /* No border */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Displayed as a block */
+    font-size: 16px; /* Font size */
+    margin: 10px 2px; /* Margin */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Rounded edges */
+  }
+  
+  button:hover {
+    background-color: gray; /* Darker green background on hover */
+  }
+  
